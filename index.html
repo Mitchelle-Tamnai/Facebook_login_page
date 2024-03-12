@@ -5,15 +5,51 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Log in Page</title>
         <link rel="stylesheet" href="styles.css">
+        
     </head>
     <body>
 
-        <form action="login">
-            <label for="Username">Username/Email Address</label><br>
-            <input type="text" id="Username"><br>
-            
-        </form>
+        <!-- <div class="login">
         
+            <form>
+
+                <p>Log in to facebook</p>
+
+                <input type="text" name="Username/Email Address" id="name" placeholder="Username/Email Address" required><br>
+
+                <input type="password" name="password" id="security" placeholder="Password"><br>
+
+                <button>Log in</button>
+
+            </form>
+        </div> -->
+
+        <div class="container" style="padding-top:15% ;">
+            <div class="row">
+                <div class="col-lg-7 col-sm-12 col-md-auto">
+                    <img class="d-block w-75" src="images/facebooklogo.svg"/>
+                    <p class="mx-4">Facebook  helps you connect and share with the people in your life</p>
+
+                </div>
+                <div class="ccol-lg-5 col-sm-12 col-md-auto p-3">
+                    <form class="shadow-lg p-3 rounded">
+                        <input class="form-control form-control-lg mb-3" type="email" placeholder="Email address or phone number">
+
+                        <input class="form-control form-control-lg mb-3" type="password" placeholder="password">
+                        <div class="d-grid gap-2">
+                            <a href="#" style="text-decoration: none;">Forgotten password?</a>
+                            <button class="btn btn-primary" type="button">Log in</button>
+                            <hr>
+                            <button class="btn btn-success col-8 mx-auto" type="button">Create new account</button>
+                          </div>
+                         
+                    </form>
+                    <p><b>Create a Page</b> for a celebrity brand or business</p>
+                </div>
+
+            </div>
+
+        </div>
 
     </body>
 </html>
